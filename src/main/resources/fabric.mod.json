@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "easypotions",
+  "version": "1.0.0",
+  "name": "Easy Potions",
+  "description": "Manage potion effects on any online player with a simple GUI. Client-side only.",
+  "authors": ["NotHeartYT", "Praveen_god_67", "Nebrion_Verse"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.easypotions.EasyPotionsClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
